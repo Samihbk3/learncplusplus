@@ -17,14 +17,13 @@ int main() {
 
   int number;
 
-  cout << "Enter your number: ";
+  cout << "Enter a number: ";
   cin >> number;
 
-  if (number >= 1 ) {
-
+  if (number > 0 ) {
     cout << "Positive " << endl;
-  } else {
-    
+  } 
+  else {
     cout << "Not positive" << endl;
   }
 
